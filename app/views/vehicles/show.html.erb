@@ -16,8 +16,8 @@
 </p>
 
 <p>
-  <strong>Modle:</strong>
-  <%= @vehicle.modle %>
+  <strong>Model:</strong>
+  <%= @vehicle.model %>
 </p>
 
 <p>
@@ -30,5 +30,5 @@
   <%= @vehicle.license_plate %>
 </p>
 
-<%= link_to 'Edit', edit_vehicle_path(@vehicle) %> |
-<%= link_to 'Back', vehicles_path %>
+<%= link_to 'Edit', edit_vehicle_path(@vehicle),class:"btn btn-success" %> |
+<%= link_to 'Back', vehicles_path ,class:"btn btn-info" %>

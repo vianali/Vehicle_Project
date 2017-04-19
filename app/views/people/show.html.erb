@@ -7,7 +7,7 @@
 
 <p>
   <strong>Last name:</strong>
-  <%= @person.last_name %>
+  <%= @person.last_name%>
 </p>
 
 <p>
@@ -20,5 +20,5 @@
   <%= @person.date_of_birth %>
 </p>
 
-<%= link_to 'Edit', edit_person_path(@person) %> |
-<%= link_to 'Back', people_path %>
+<%= link_to 'Edit', edit_person_path(@person),class:"btn btn-success" %> |
+<%= link_to 'Back', people_path,class:"btn btn-info" %>
