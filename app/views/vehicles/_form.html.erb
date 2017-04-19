@@ -13,27 +13,27 @@
 
   <div class="form-group">
     <%= f.label :vin %><br>
-    <%= f.text_field :vin %>
+    <%= f.text_field :vin,required: true %>
   </div>
   <div class="form-group">
     <%= f.label :year %><br>
-    <%= f.number_field :year %>
+    <%= f.number_field :year,required: true %>
   </div>
   <div class="form-group">
     <%= f.label :make %><br>
-    <%= f.text_field :make %>
+    <%= f.text_field :make,required: true %>
   </div>
   <div class="form-group">
-    <%= f.label :model %><br>
-    <%= f.text_field :model %>
+    <%= f.label :modle %><br>
+    <%= f.text_field :modle,required: true %>
   </div>
   <div class="form-group">
     <%= f.label :engine_type %><br>
-    <%= f.text_field :engine_type %>
+    <%= f.text_field :engine_type,required: true %>
   </div>
   <div class="form-group">
     <%= f.label :license_plate %><br>
-    <%= f.text_field :license_plate %>
+    <%= f.text_field :license_plate,required: true %>
   </div>
   <div class="actions">
     <%= f.submit %>
