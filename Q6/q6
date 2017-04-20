@@ -1,1 +1,6 @@
 6. What is the purpose of application* files? * here refers to anything else that comes after the word "application". 
+
+ans\
+This is the core directory of entire app and most of the application-specific code will go into this directory.
+Rails is an MVC framework, which means the application is separated into parts per its purpose in the Model,
+View, or Controller. These three sections goes inside this directory.
